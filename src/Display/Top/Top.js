@@ -2,7 +2,7 @@ import './Top.css';
 
 function Top() {
     return(
-        <div>
+        <div className='top'>
             Top
         </div>
     );

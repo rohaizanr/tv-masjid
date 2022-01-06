@@ -2,7 +2,7 @@ import './Middle.css';
 
 function Middle() {
     return (
-        <div>
+        <div className='middle'>
             Middle
         </div>
     );
