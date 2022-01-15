@@ -13,9 +13,8 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/">
-          <Main />
-        </Route>
+        <Route path="/" element={<Main />} />
+        {/* <Route path="/admin" element={<Admin />} /> */}
       </Routes>
     </Router>
   );
