@@ -1,4 +1,21 @@
+
+p {
+    text-align: center;
+}
+
+.nopadding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 div.middle {
     height: 70vh;
     border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.solid {
+    border-style: solid;   
 }

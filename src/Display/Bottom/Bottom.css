@@ -1,4 +1,6 @@
 div.bottom {
     height: 20vh;
-    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

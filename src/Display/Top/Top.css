@@ -1,4 +1,6 @@
 div.top {
     height: 10vh;
-    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

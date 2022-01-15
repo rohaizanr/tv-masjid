@@ -3,7 +3,7 @@ import './Middle.css';
 function Middle() {
     return (
         <div className='middle'>
-            Middle
+            <p>Content</p>
         </div>
     );
 }
