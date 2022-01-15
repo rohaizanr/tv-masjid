@@ -4,3 +4,8 @@ div.bottom {
     justify-content: center;
     align-items: center;
 }
+
+no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

@@ -9,7 +9,7 @@ class Waktu extends Component {
 
     render() {
         return (
-            <div className='container'>
+            // <div className='container-fluid'>
                 <div class="d-flex">
                     <div class="p-2 flex-fill"><h1>Imsak</h1><br/><h2>1:12PM</h2></div>
                     <div class="p-2 flex-fill"><h1>Subuh</h1><br/><h2>1:12PM</h2></div>
@@ -19,7 +19,7 @@ class Waktu extends Component {
                     <div class="p-2 flex-fill"><h1>Maghrib</h1><br/><h2>1:12PM</h2></div>
                     <div class="p-2 flex-fill"><h1>Isyak</h1><br/><h2>1:12PM</h2></div>
                 </div>
-            </div>
+            // </div>
         );
     }
 }
