@@ -1,0 +1,19 @@
+{
+    "masjidName" : "Masjid Jamek Sungai Rambai Bukit Mertajam",
+    "announcement" : [
+        "Tidak dibenarkan menghisap rokok",
+        "Tutup handphone",
+        "Selamat berpuasa"
+    ],
+    "prayerTimes" : {
+        "fileLocation" : "./../solatPenang.json"
+    },
+    "cameraSettings" : {
+        "enable" : false,
+        "url" : "http://"
+    },
+    "powerPointSetting" : {
+        "enable" : false,
+        "fileLocation" : "./../powerpointmasjid.odt"
+    }
+}
