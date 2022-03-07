@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Waktu extends Component {
+class SolatTimes extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,4 +24,4 @@ class Waktu extends Component {
     }
 }
 
-export default Waktu;
+export default SolatTimes;

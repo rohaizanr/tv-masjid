@@ -1,12 +1,12 @@
 import Announcement from '../../Component/Announcement/Announcement';
-import Waktu from '../../Component/Waktu/Waktu';
+import SolatTimes from '../../Component/SolatTimes/SolatTimes';
 import './Bottom.css';
 
 function Bottom() {
     return(
         <div className='bottom bg-primary bg-gradient'>
             <div className='container-fluid no-padding'>
-                <Waktu />
+                <SolatTimes />
                 <Announcement />
             </div>
         </div>

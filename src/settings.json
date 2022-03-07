@@ -6,7 +6,8 @@
         "Selamat berpuasa"
     ],
     "prayerTimes" : {
-        "fileLocation" : "./../solatPenang.json"
+        "fileLocation" : "./../solatPenang.json",
+        "showImsak" : true
     },
     "cameraSettings" : {
         "enable" : false,
