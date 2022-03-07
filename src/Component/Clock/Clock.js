@@ -28,7 +28,9 @@ class Clock extends Component {
     render() {
         return (
             <div>
+                <pre>
                 {this.state.time}
+                </pre>
             </div> 
         );
     }

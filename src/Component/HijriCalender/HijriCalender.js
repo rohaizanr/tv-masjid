@@ -5,7 +5,8 @@ class HijriCalender extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            hijriDate: momentHijri().format('iYYYY/iM/iD')
+            hijriDate: momentHijri().format('iYYYY/iM/iD'),
+            date: new Date().toLocaleDateString()
         }
       }
 
@@ -22,14 +23,19 @@ class HijriCalender extends Component {
 
     updateCalender() {
         this.setState({
-            hijriDate: momentHijri().format('iYYYY/iM/iD')
+            hijriDate: momentHijri().format('iYYYY/iM/iD'),
+            date: new Date().toLocaleDateString()
         });
     }
     
     render() {
         return (
             <div>
+                <pre>
+                {this.state.date}
+                <br />
                 {this.state.hijriDate}
+                </pre>
             </div>
         );
     }

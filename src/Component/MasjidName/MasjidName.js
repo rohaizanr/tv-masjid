@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+import { getMasjidName } from '../../utils/applicationSettings';
 
 class MasjidName extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name : "Masjid Jamek Sungai Rambai"
+            name : getMasjidName()
         };
       }
 
     render() {
         return (
             <div>
-                <h2>{this.state.name}</h2>
+                <h3>{this.state.name}</h3>
             </div>
         );
     }

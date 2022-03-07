@@ -6,8 +6,9 @@
         "Selamat berpuasa"
     ],
     "prayerTimes" : {
-        "fileLocation" : "./../solatPenang.json",
-        "showImsak" : true
+        "fileLocation" : "./DataStore/takwim-png-2022.json",
+        "showImsak" : false,
+        "showSyuruk" : false
     },
     "cameraSettings" : {
         "enable" : false,
