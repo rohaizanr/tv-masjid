@@ -20,7 +20,7 @@ Raspberry Pi + HDMI TV + TV Masjid = Free Pahala
 ### Screen 4
 ![image info](./plan/screen4.png)
 
-# Sila contribute apa yang patut.
+# To be continued ...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
